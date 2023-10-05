@@ -10,16 +10,16 @@ export declare class AuthController {
         id: number;
         email: string;
         name: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     login(dto: LoginDto): Promise<{
         user: {
             id: number;
             email: string;
             name: string;
-            created_date: Date;
-            updated_date: Date;
+            createdAt: Date;
+            updatedAt: Date;
         };
         backendTokens: {
             accessToken: string;

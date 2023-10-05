@@ -7,23 +7,23 @@ export declare class UserService {
         id: number;
         email: string;
         name: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     findByEmail(email: string): Promise<{
         id: number;
         email: string;
         name: string;
         password: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     findById(id: number): Promise<{
         id: number;
         email: string;
         name: string;
         password: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
 }

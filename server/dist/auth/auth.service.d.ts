@@ -10,8 +10,8 @@ export declare class AuthService {
             id: number;
             email: string;
             name: string;
-            created_date: Date;
-            updated_date: Date;
+            createdAt: Date;
+            updatedAt: Date;
         };
         backendTokens: {
             accessToken: string;
@@ -23,8 +23,8 @@ export declare class AuthService {
         id: number;
         email: string;
         name: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     refreshToken(user: any): Promise<{
         accessToken: string;

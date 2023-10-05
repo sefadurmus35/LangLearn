@@ -4,8 +4,8 @@ CREATE TABLE "User" (
     "email" TEXT NOT NULL,
     "name" TEXT,
     "password" TEXT NOT NULL,
-    "created_date" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updated_date" TIMESTAMP(3) NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );

@@ -7,7 +7,7 @@ export declare class UserController {
         email: string;
         name: string;
         password: string;
-        created_date: Date;
-        updated_date: Date;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
 }
